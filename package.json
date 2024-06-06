@@ -1,0 +1,10 @@
+{
+  "name": "Windows_miAirPurifier_Integration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leohearts <leohearts@leohearts.com>",
+  "license": "MIT",
+  "dependencies": {
+    "systeminformation": "^5.22.10"
+  }
+}
