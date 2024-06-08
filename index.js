@@ -27,7 +27,7 @@ async function sleep(ms) {
 
 async function monitorTemperature() {
     await si.cpuTemperature().then(
-        async data => {
+    async data => {
             let temperature = data.main
             console.log("CPU Temperature: " + temperature)
             if (temperature > 85) {
